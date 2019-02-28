@@ -54,7 +54,7 @@ To get the Google login working there are a few additional steps:
 3. Go to Credentials
 4. Select Create Crendentials > OAuth Client ID
 5. Select Web application
-6. Enter name 'Byke-Store'
+6. Enter name 'game-Store'
 7. Authorized JavaScript origins = 'http://localhost:8000'
 8. Authorized redirect URIs = 'http://localhost:8000/login' && 'http://localhost:8000/gconnect'
 9. Select Create
@@ -62,7 +62,7 @@ To get the Google login working there are a few additional steps:
 11. On the Dev Console Select Download JSON
 12. Rename JSON file to client_secrets.json
 13. Place JSON file in game-store directory that you cloned from here
-14. Run application using `python /game_store/main.py`
+14. Run application using `python /game_store/file.py`
 
 ## JSON Endpoints
 The following are open to the public:
@@ -78,7 +78,7 @@ All game Editions: `/gameStore/editions/JSON`
 Game Edition JSON: `/gameStore/<path:game_name>/editions/JSON`
     - Displays game models for a specific game category
 
-Byke Category Edition JSON: `/gameStore/<path:game_name>/<path:edition_name>/JSON`
+Game Category Edition JSON: `/gameStore/<path:game_name>/<path:edition_name>/JSON`
     - Displays a specific game category Model.
 
 ## Miscellaneous
