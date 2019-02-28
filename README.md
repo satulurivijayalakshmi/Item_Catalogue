@@ -61,7 +61,7 @@ To get the Google login working there are a few additional steps:
 10. Copy the Client ID and paste it into the `data-clientid` in login.html
 11. On the Dev Console Select Download JSON
 12. Rename JSON file to client_secrets.json
-13. Place JSON file in book-store directory that you cloned from here
+13. Place JSON file in game-store directory that you cloned from here
 14. Run application using `python /game_store/main.py`
 
 ## JSON Endpoints
