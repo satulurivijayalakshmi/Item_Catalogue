@@ -46,7 +46,7 @@ Or you can simply Install the dependency libraries (Flask, sqlalchemy, requests,
 
 *Optional step(s)
 
-## Using Google Login
+##  Using Google Login
 To get the Google login working there are a few additional steps:
 
 1. Go to [Google Dev Console](https://console.developers.google.com)
