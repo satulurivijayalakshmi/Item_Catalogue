@@ -6,7 +6,7 @@ This web app is a project for the Udacity [FSND Course](https://www.udacity.com/
 This project is a RESTful web application utilizing the Flask framework which accesses a SQL database that populates book categories and their editions. OAuth2 provides authentication for further CRUD functionality on the application. Currently OAuth2 is implemented for Google Accounts.
 
 ## In This Project
-This project has one main Python module `main.py` which runs the Flask application. A SQL database is created using the `Data_Setup.py` module and you can populate the database with test data using `database_init.py`.
+This project has one main Python module `file.py` which runs the Flask application. A SQL database is created using the `db_Setup.py` module and you can populate the database with test data using `database_init.py`.
 The Flask application uses stored HTML templates in the tempaltes folder to build the front-end of the application.
 
 ## Skills Required
@@ -67,19 +67,19 @@ To get the Google login working there are a few additional steps:
 ## JSON Endpoints
 The following are open to the public:
 
-Bykes Catalog JSON: `/BykeStore/JSON`
-    - Displays the whole bykes models catalog. Byke Categories and all models.
+Games Catalog JSON: `/gameStore/JSON`
+    - Displays the whole game models catalog. game Categories and all models.
 
-Byke Categories JSON: `/bykekStore/bykeCategories/JSON`
-    - Displays all Byke categories
-All Byke Editions: `/bykeStore/editions/JSON`
-	- Displays all Byke Models
+Game Categories JSON: `/gameStore/gameCategories/JSON`
+    - Displays all game categories
+All game Editions: `/gameStore/editions/JSON`
+	- Displays all game Models
 
-Byke Edition JSON: `/bykekStore/<path:byke_name>/editions/JSON`
-    - Displays Byke models for a specific Byke category
+Game Edition JSON: `/gameStore/<path:game_name>/editions/JSON`
+    - Displays game models for a specific game category
 
-Byke Category Edition JSON: `/bykeStore/<path:bykek_name>/<path:edition_name>/JSON`
-    - Displays a specific Byke category Model.
+Byke Category Edition JSON: `/gameStore/<path:game_name>/<path:edition_name>/JSON`
+    - Displays a specific game category Model.
 
 ## Miscellaneous
 
